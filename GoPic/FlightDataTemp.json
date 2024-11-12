@@ -1,0 +1,2554 @@
+{
+  "context": {
+    "status": "incomplete",
+    "sessionId": "f0992f22-6fec-44ac-831d-510101664c3a",
+    "totalResults": 10
+  },
+  "itineraries": {
+    "buckets": [
+      {
+        "id": "Best",
+        "name": "Best",
+        "items": [
+          {
+            "id": "18467-2308090745--31147-0-12712-2308090945|12712-2308151325--31722-0-18467-2308151510",
+            "price": {
+              "raw": 269.26,
+              "formatted": "270 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308090745--31147-0-12712-2308090945",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 120,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T07:45:00",
+                "arrival": "2023-08-09T09:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31147,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/F..png",
+                      "name": "Flair Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308090745-2308090945--31147",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T07:45:00",
+                    "arrival": "2023-08-09T09:45:00",
+                    "durationInMinutes": 120,
+                    "flightNumber": "1614",
+                    "marketingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151325--31722-0-18467-2308151510",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T13:25:00",
+                "arrival": "2023-08-15T15:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151325-2308151510--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T13:25:00",
+                    "arrival": "2023-08-15T15:10:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6631",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 0.808313,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 269.26
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 269.26
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308090745--31147-0-12712-2308090945|12712-2308151325--31722-0-18467-2308151510?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308090745--31147-0-12712-2308090945|12712-2308151000--31722-0-18467-2308151145",
+            "price": {
+              "raw": 269.26,
+              "formatted": "270 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308090745--31147-0-12712-2308090945",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 120,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T07:45:00",
+                "arrival": "2023-08-09T09:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31147,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/F..png",
+                      "name": "Flair Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308090745-2308090945--31147",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T07:45:00",
+                    "arrival": "2023-08-09T09:45:00",
+                    "durationInMinutes": 120,
+                    "flightNumber": "1614",
+                    "marketingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151000--31722-0-18467-2308151145",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T10:00:00",
+                "arrival": "2023-08-15T11:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151000-2308151145--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T10:00:00",
+                    "arrival": "2023-08-15T11:45:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6633",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 0.807674,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 269.26
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 269.26
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308090745--31147-0-12712-2308090945|12712-2308151000--31722-0-18467-2308151145?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308092030--32695-0-12712-2308092200|12712-2308151000--31722-0-18467-2308151145",
+            "price": {
+              "raw": 340.36,
+              "formatted": "341 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308092030--32695-0-12712-2308092200",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 90,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T20:30:00",
+                "arrival": "2023-08-09T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32695,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                      "name": "Air Canada"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308092030-2308092200--32695",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T20:30:00",
+                    "arrival": "2023-08-09T22:00:00",
+                    "durationInMinutes": 90,
+                    "flightNumber": "8556",
+                    "marketingCarrier": {
+                      "id": -32695,
+                      "name": "Air Canada",
+                      "alternateId": "AC",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151000--31722-0-18467-2308151145",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T10:00:00",
+                "arrival": "2023-08-15T11:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151000-2308151145--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T10:00:00",
+                    "arrival": "2023-08-15T11:45:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6633",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 0.737572,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "xpuk"
+                ],
+                "price": {
+                  "amount": 340.36
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 340.36
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "xpuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308092030--32695-0-12712-2308092200|12712-2308151000--31722-0-18467-2308151145?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Cheapest",
+        "name": "Cheapest",
+        "items": [
+          {
+            "id": "18467-2308090745--31147-0-12712-2308090945|12712-2308151325--31722-0-18467-2308151510",
+            "price": {
+              "raw": 269.26,
+              "formatted": "270 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308090745--31147-0-12712-2308090945",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 120,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T07:45:00",
+                "arrival": "2023-08-09T09:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31147,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/F..png",
+                      "name": "Flair Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308090745-2308090945--31147",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T07:45:00",
+                    "arrival": "2023-08-09T09:45:00",
+                    "durationInMinutes": 120,
+                    "flightNumber": "1614",
+                    "marketingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151325--31722-0-18467-2308151510",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T13:25:00",
+                "arrival": "2023-08-15T15:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151325-2308151510--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T13:25:00",
+                    "arrival": "2023-08-15T15:10:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6631",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 1,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 269.26
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 269.26
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308090745--31147-0-12712-2308090945|12712-2308151325--31722-0-18467-2308151510?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308090745--31147-0-12712-2308090945|12712-2308151000--31722-0-18467-2308151145",
+            "price": {
+              "raw": 269.26,
+              "formatted": "270 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308090745--31147-0-12712-2308090945",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 120,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T07:45:00",
+                "arrival": "2023-08-09T09:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31147,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/F..png",
+                      "name": "Flair Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308090745-2308090945--31147",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T07:45:00",
+                    "arrival": "2023-08-09T09:45:00",
+                    "durationInMinutes": 120,
+                    "flightNumber": "1614",
+                    "marketingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151000--31722-0-18467-2308151145",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T10:00:00",
+                "arrival": "2023-08-15T11:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151000-2308151145--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T10:00:00",
+                    "arrival": "2023-08-15T11:45:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6633",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 1,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 269.26
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 269.26
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308090745--31147-0-12712-2308090945|12712-2308151000--31722-0-18467-2308151145?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308090745--31147-0-12712-2308090945|12712-2308151325--32695-0-18467-2308151510",
+            "price": {
+              "raw": 297.07,
+              "formatted": "298 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308090745--31147-0-12712-2308090945",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 120,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T07:45:00",
+                "arrival": "2023-08-09T09:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31147,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/F..png",
+                      "name": "Flair Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308090745-2308090945--31147",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T07:45:00",
+                    "arrival": "2023-08-09T09:45:00",
+                    "durationInMinutes": 120,
+                    "flightNumber": "1614",
+                    "marketingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151325--32695-0-18467-2308151510",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T13:25:00",
+                "arrival": "2023-08-15T15:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32695,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                      "name": "Air Canada"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151325-2308151510--32695",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T13:25:00",
+                    "arrival": "2023-08-15T15:10:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "8555",
+                    "marketingCarrier": {
+                      "id": -32695,
+                      "name": "Air Canada",
+                      "alternateId": "AC",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "second_cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 0.7245989,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "mtuk"
+                ],
+                "price": {
+                  "amount": 297.07
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 297.07
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "mtuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308090745--31147-0-12712-2308090945|12712-2308151325--32695-0-18467-2308151510?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Fastest",
+        "name": "Fastest",
+        "items": [
+          {
+            "id": "18467-2308092030--31722-0-12712-2308092200|12712-2308151000--32695-0-18467-2308151145",
+            "price": {
+              "raw": 370.24,
+              "formatted": "371 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308092030--31722-0-12712-2308092200",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 90,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T20:30:00",
+                "arrival": "2023-08-09T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308092030-2308092200--31722",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T20:30:00",
+                    "arrival": "2023-08-09T22:00:00",
+                    "durationInMinutes": 90,
+                    "flightNumber": "6634",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151000--32695-0-18467-2308151145",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T10:00:00",
+                "arrival": "2023-08-15T11:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32695,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                      "name": "Air Canada"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151000-2308151145--32695",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T10:00:00",
+                    "arrival": "2023-08-15T11:45:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "8553",
+                    "marketingCarrier": {
+                      "id": -32695,
+                      "name": "Air Canada",
+                      "alternateId": "AC",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 1,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 370.24
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 370.24
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308092030--31722-0-12712-2308092200|12712-2308151000--32695-0-18467-2308151145?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308092030--31722-0-12712-2308092200|12712-2308151325--32695-0-18467-2308151510",
+            "price": {
+              "raw": 370.24,
+              "formatted": "371 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308092030--31722-0-12712-2308092200",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 90,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T20:30:00",
+                "arrival": "2023-08-09T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308092030-2308092200--31722",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T20:30:00",
+                    "arrival": "2023-08-09T22:00:00",
+                    "durationInMinutes": 90,
+                    "flightNumber": "6634",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151325--32695-0-18467-2308151510",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T13:25:00",
+                "arrival": "2023-08-15T15:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32695,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                      "name": "Air Canada"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151325-2308151510--32695",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T13:25:00",
+                    "arrival": "2023-08-15T15:10:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "8555",
+                    "marketingCarrier": {
+                      "id": -32695,
+                      "name": "Air Canada",
+                      "alternateId": "AC",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 1,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 370.24
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 370.24
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308092030--31722-0-12712-2308092200|12712-2308151325--32695-0-18467-2308151510?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308092030--32695-0-12712-2308092200|12712-2308151000--31722-0-18467-2308151145",
+            "price": {
+              "raw": 340.36,
+              "formatted": "341 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308092030--32695-0-12712-2308092200",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 90,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T20:30:00",
+                "arrival": "2023-08-09T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32695,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                      "name": "Air Canada"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308092030-2308092200--32695",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T20:30:00",
+                    "arrival": "2023-08-09T22:00:00",
+                    "durationInMinutes": 90,
+                    "flightNumber": "8556",
+                    "marketingCarrier": {
+                      "id": -32695,
+                      "name": "Air Canada",
+                      "alternateId": "AC",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151000--31722-0-18467-2308151145",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T10:00:00",
+                "arrival": "2023-08-15T11:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151000-2308151145--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T10:00:00",
+                    "arrival": "2023-08-15T11:45:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6633",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 1,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "xpuk"
+                ],
+                "price": {
+                  "amount": 340.36
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 340.36
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "xpuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308092030--32695-0-12712-2308092200|12712-2308151000--31722-0-18467-2308151145?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      },
+      {
+        "id": "Direct",
+        "name": "Direct",
+        "items": [
+          {
+            "id": "18467-2308090745--31147-0-12712-2308090945|12712-2308151325--31722-0-18467-2308151510",
+            "price": {
+              "raw": 269.26,
+              "formatted": "270 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308090745--31147-0-12712-2308090945",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 120,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T07:45:00",
+                "arrival": "2023-08-09T09:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31147,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/F..png",
+                      "name": "Flair Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308090745-2308090945--31147",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T07:45:00",
+                    "arrival": "2023-08-09T09:45:00",
+                    "durationInMinutes": 120,
+                    "flightNumber": "1614",
+                    "marketingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151325--31722-0-18467-2308151510",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T13:25:00",
+                "arrival": "2023-08-15T15:10:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151325-2308151510--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T13:25:00",
+                    "arrival": "2023-08-15T15:10:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6631",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 0.808313,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 269.26
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 269.26
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308090745--31147-0-12712-2308090945|12712-2308151325--31722-0-18467-2308151510?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308090745--31147-0-12712-2308090945|12712-2308151000--31722-0-18467-2308151145",
+            "price": {
+              "raw": 269.26,
+              "formatted": "270 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308090745--31147-0-12712-2308090945",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 120,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T07:45:00",
+                "arrival": "2023-08-09T09:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31147,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/F..png",
+                      "name": "Flair Airlines"
+                    }
+                  ],
+                  "operationType": "fully_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308090745-2308090945--31147",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T07:45:00",
+                    "arrival": "2023-08-09T09:45:00",
+                    "durationInMinutes": 120,
+                    "flightNumber": "1614",
+                    "marketingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31147,
+                      "name": "Flair Airlines",
+                      "alternateId": "F.",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151000--31722-0-18467-2308151145",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T10:00:00",
+                "arrival": "2023-08-15T11:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151000-2308151145--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T10:00:00",
+                    "arrival": "2023-08-15T11:45:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6633",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "cheapest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 0.807674,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "lmuk"
+                ],
+                "price": {
+                  "amount": 269.26
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 269.26
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "lmuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308090745--31147-0-12712-2308090945|12712-2308151000--31722-0-18467-2308151145?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          },
+          {
+            "id": "18467-2308092030--32695-0-12712-2308092200|12712-2308151000--31722-0-18467-2308151145",
+            "price": {
+              "raw": 340.36,
+              "formatted": "341 €"
+            },
+            "legs": [
+              {
+                "id": "18467-2308092030--32695-0-12712-2308092200",
+                "origin": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 90,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-09T20:30:00",
+                "arrival": "2023-08-09T22:00:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -32695,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/AC.png",
+                      "name": "Air Canada"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "18467-12712-2308092030-2308092200--32695",
+                    "origin": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-09T20:30:00",
+                    "arrival": "2023-08-09T22:00:00",
+                    "durationInMinutes": 90,
+                    "flightNumber": "8556",
+                    "marketingCarrier": {
+                      "id": -32695,
+                      "name": "Air Canada",
+                      "alternateId": "AC",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "12712-2308151000--31722-0-18467-2308151145",
+                "origin": {
+                  "id": "JFK",
+                  "name": "New York John F. Kennedy",
+                  "displayCode": "JFK",
+                  "city": "New York",
+                  "isHighlighted": false
+                },
+                "destination": {
+                  "id": "YYZ",
+                  "name": "Toronto Pearson International",
+                  "displayCode": "YYZ",
+                  "city": "Toronto",
+                  "isHighlighted": false
+                },
+                "durationInMinutes": 105,
+                "stopCount": 0,
+                "isSmallestStops": false,
+                "departure": "2023-08-15T10:00:00",
+                "arrival": "2023-08-15T11:45:00",
+                "timeDeltaInDays": 0,
+                "carriers": {
+                  "marketing": [
+                    {
+                      "id": -31722,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/UA.png",
+                      "name": "United"
+                    }
+                  ],
+                  "operating": [
+                    {
+                      "id": -31542,
+                      "logoUrl": "https://logos.skyscnr.com/images/airlines/favicon/%21%24.png",
+                      "name": "Air Canada Express - Jazz"
+                    }
+                  ],
+                  "operationType": "not_operated"
+                },
+                "segments": [
+                  {
+                    "id": "12712-18467-2308151000-2308151145--31722",
+                    "origin": {
+                      "flightPlaceId": "JFK",
+                      "displayCode": "JFK",
+                      "parent": {
+                        "flightPlaceId": "NYCA",
+                        "displayCode": "NYC",
+                        "name": "New York",
+                        "type": "City"
+                      },
+                      "name": "New York John F. Kennedy",
+                      "type": "Airport"
+                    },
+                    "destination": {
+                      "flightPlaceId": "YYZ",
+                      "displayCode": "YYZ",
+                      "parent": {
+                        "flightPlaceId": "YTOA",
+                        "displayCode": "YTO",
+                        "name": "Toronto",
+                        "type": "City"
+                      },
+                      "name": "Toronto Pearson International",
+                      "type": "Airport"
+                    },
+                    "departure": "2023-08-15T10:00:00",
+                    "arrival": "2023-08-15T11:45:00",
+                    "durationInMinutes": 105,
+                    "flightNumber": "6633",
+                    "marketingCarrier": {
+                      "id": -31722,
+                      "name": "United",
+                      "alternateId": "UA",
+                      "allianceId": 0
+                    },
+                    "operatingCarrier": {
+                      "id": -31542,
+                      "name": "Air Canada Express - Jazz",
+                      "alternateId": "!$",
+                      "allianceId": 0
+                    }
+                  }
+                ]
+              }
+            ],
+            "isSelfTransfer": false,
+            "isProtectedSelfTransfer": false,
+            "farePolicy": {
+              "isChangeAllowed": false,
+              "isPartiallyChangeable": false,
+              "isCancellationAllowed": false,
+              "isPartiallyRefundable": false
+            },
+            "fareAttributes": {},
+            "tags": [
+              "shortest"
+            ],
+            "isMashUp": false,
+            "hasFlexibleOptions": false,
+            "score": 0.737572,
+            "pricingOptions": [
+              {
+                "agentIds": [
+                  "xpuk"
+                ],
+                "price": {
+                  "amount": 340.36
+                },
+                "items": [
+                  {
+                    "price": {
+                      "amount": 340.36
+                    },
+                    "bookingProposition": "PBOOK",
+                    "agentId": "xpuk"
+                  }
+                ]
+              }
+            ],
+            "deeplink": "https://www.skyscanner.net/transport/flights/yyz/jfk/230809/230815/config/18467-2308092030--32695-0-12712-2308092200|12712-2308151000--31722-0-18467-2308151145?adults=1&adultsv2=1&cabinclass=economy&children=0&childrenv2=&destinationentityid=27537542&originentityid=27536640&inboundaltsenabled=false&infants=0&outboundaltsenabled=false&preferdirects=false&ref=home&rtn=1"
+          }
+        ]
+      }
+    ]
+  }
+}
